@@ -1,0 +1,26 @@
+.fondo {
+  height: 30rem;
+  background-image: url(https://images.pexels.com/photos/3219547/pexels-photo-3219547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: 100rem 70rem;
+  background-position: center;
+}
+
+.titulo__principal {
+  color: black;
+  font-size: 5em;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  padding-top: 4rem;
+  text-decoration: underline;
+}
+
+.titulo__secundario {
+  @extend .titulo__principal;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.container {
+  width: 100%;
+}

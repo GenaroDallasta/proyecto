@@ -1,0 +1,22 @@
+$tamaño: 5rem;
+
+.fondoNosotros {
+  height: 35rem;
+  background-image: url(https://images.pexels.com/photos/2331536/pexels-photo-2331536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tituloNosotros {
+  color: white;
+  font-size: 10em;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  padding-top: $tamaño * 4;
+  text-decoration: underline;
+}
+
+iframe {
+  padding-top: 5rem;
+}

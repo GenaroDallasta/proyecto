@@ -1,0 +1,36 @@
+.tituloContacto {
+  color: black;
+  text-align: center;
+  font-size: 5em;
+  font-family: "Bebas Neue", cursive;
+}
+
+.fondoContacto {
+  height: 35rem;
+  background-image: url(https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin redes {
+  padding: 10px;
+  width: 256px;
+  height: 256px;
+  background-size: cover;
+}
+
+.redes-1 {
+  @include redes;
+  background-image: url(/imagenes/facebook_icon_130940.png);
+}
+
+.redes-2 {
+  @include redes;
+  background-image: url(/imagenes/instagram-2752153-2284970.png);
+}
+
+.redes-3 {
+  @include redes;
+  background-image: url(/imagenes/whatsapp-155-721985.png);
+}
