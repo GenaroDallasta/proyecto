@@ -11284,5 +11284,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (max-width: 425px) {
+  .tituloNosotros {
+    font-size: 5rem;
+  }
+
+  .redes-1 {
+    background-size: cover;
+  }
+
+  .redes-2 {
+    background-size: cover;
+  }
+
+  .redes-3 {
+    background-size: cover;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
